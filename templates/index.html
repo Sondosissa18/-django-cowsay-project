@@ -1,0 +1,27 @@
+<p><a href="{% url 'history' %}">Home Most Recent</a></p>
+<form action="" method="post">
+  {% csrf_token %} {{ form }}
+  <input type="submit" value="Submit" />
+</form>
+
+<!-- <pre>
+<p>{{result}}</p>
+</pre> -->
+
+<html>
+  <head>
+    <title>pre tag with CSS</title>
+    <style>
+      pre {
+        white-space: pre-wrap;
+      }
+    </style>
+  </head>
+
+  <body>
+    <pre>
+         <p>{{result}}</p>
+    
+    </pre>
+  </body>
+</html>
